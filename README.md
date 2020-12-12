@@ -1,5 +1,5 @@
 # BMBF-Log-interpreter
-filters the most important information of a BMBF Log.
+filters the most important information of a BMBF Log. Meant for Supporters
 # Info
 This time no automatic update or update checking xD. I want a bit less work.
 # Usage
