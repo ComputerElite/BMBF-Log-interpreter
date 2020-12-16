@@ -66,6 +66,14 @@ namespace BMBF_Corrupted_songs_detector
                                 found.Add(err);
                             }
                         }
+                        else if(line.Contains("System.IO.FileStream"))
+                        {
+                            err = "FileStream Problem at line " + i;
+                            if (!found.Contains(err))
+                            {
+                                found.Add(err);
+                            }
+                        }
                     }
                     else if(line.Substring(25, 3) == "MSG")
                     {
@@ -92,6 +100,7 @@ namespace BMBF_Corrupted_songs_detector
             }
             Console.WriteLine("\ncommon fixes:");
             Console.WriteLine("- Questom asset problem: tell the person to delete the songs with a unsupported cover format. If that doesn't help tell them to delete songs that failed to load.");
+            Console.WriteLine("- FileStream Problem: tell the persong to enable both permssions for BMBF in sidequest");
             Console.WriteLine("\n---Log Start---");
             foreach(String c in found)
             {

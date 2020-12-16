@@ -1,0 +1,7 @@
+D:\Visual Studio\BMBF Corrupted songs detector\BMBF Corrupted songs detector\bin\Debug\BMBF Corrupted songs detector.exe.config
+D:\Visual Studio\BMBF Corrupted songs detector\BMBF Corrupted songs detector\bin\Debug\BMBF Corrupted songs detector.exe
+D:\Visual Studio\BMBF Corrupted songs detector\BMBF Corrupted songs detector\bin\Debug\BMBF Corrupted songs detector.pdb
+D:\Visual Studio\BMBF Corrupted songs detector\BMBF Corrupted songs detector\obj\Debug\BMBF Corrupted songs detector.csprojAssemblyReference.cache
+D:\Visual Studio\BMBF Corrupted songs detector\BMBF Corrupted songs detector\obj\Debug\BMBF Corrupted songs detector.csproj.CoreCompileInputs.cache
+D:\Visual Studio\BMBF Corrupted songs detector\BMBF Corrupted songs detector\obj\Debug\BMBF Corrupted songs detector.exe
+D:\Visual Studio\BMBF Corrupted songs detector\BMBF Corrupted songs detector\obj\Debug\BMBF Corrupted songs detector.pdb
