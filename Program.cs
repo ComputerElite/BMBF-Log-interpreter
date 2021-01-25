@@ -91,7 +91,7 @@ namespace BMBF_Corrupted_songs_detector
                             {
                                 hash = tryhash.Substring(tryhash.IndexOf("hash") + 5, 40);
                             } catch { }
-                            err = "Cover asset art failed to load. Potientioal Song hash " + hash + " at line " + i;
+                            err = "Cover asset art failed to load. Potiential Song hash " + hash + " at line " + i;
                             if (!weirderror.Contains(hash)) weirderror.Add(hash);
                             if (!found.Contains(err))
                             {
@@ -135,7 +135,7 @@ namespace BMBF_Corrupted_songs_detector
 
             if (cover.Count != 0)
             {
-                Console.WriteLine("\nUnsopported Cover formats (delete those songs):");
+                Console.WriteLine("\nUnsupported Cover formats (delete those songs):");
                 foreach (String c in cover)
                 {
                     Console.WriteLine("  - " + c);
